@@ -10,18 +10,18 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
+    //definindo variáveis
+    
     let historias = ["Consentimento", "Corpo Humano", "Partes Intimas"]
     
     let histImages: [UIImage] = [UIImage(named:"cons")! , UIImage(named: "corpo")!, UIImage(named: "partes")!]
     
     let resumo = [" Dona Firmina e sua amiga sem noção", " Conhecimento do corpo humano de maneira didática e divertida!", " CHORONA VÍRUS"]
 
-    //definindo
     @IBOutlet weak var collectionView: UICollectionView!
     
    
     //funcoes
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -48,6 +48,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return ("A história irá retratar")
     }
     
+
     
     
 

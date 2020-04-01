@@ -10,17 +10,14 @@ import UIKit
 
 class AutoChangeScript: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5){
-        
-        // Do any additional setup after loading the view.
+    override func viewDidAppear(_ animated: Bool) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10){
             self.performSegue(withIdentifier: "MenuScene", sender: self)
+        }
 
-        // Do any additional setup after loading the view.
-    }
+    
     
 
-
     }
+    
 }

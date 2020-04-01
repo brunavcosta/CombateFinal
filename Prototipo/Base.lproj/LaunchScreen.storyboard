@@ -24,7 +24,7 @@
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="42"/>
                                 <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.0" green="0.0" blue="0.59083369009999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.1577211916" green="0.25403431059999998" blue="0.68239051100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="shadowOffset" width="4" height="-1"/>
                             </label>
                         </subviews>

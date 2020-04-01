@@ -10,9 +10,9 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var labelHist1: UILabel!
+    @IBOutlet weak var labelHist1: UILabel! //Nome Historia menu
     
-    @IBOutlet weak var hist1ImageView: UIImageView!
+    @IBOutlet weak var hist1ImageView: UIImageView! //Imagem Historia menu
     
-    @IBOutlet weak var texto: UILabel!
+    @IBOutlet weak var texto: UILabel! //Resumo Historia menu
 }
