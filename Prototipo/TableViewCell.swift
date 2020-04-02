@@ -9,10 +9,6 @@
 import UIKit
 
 class TableViewCell: UITableViewCell {
-
-    @IBOutlet weak var labelNome: UILabel!
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -23,20 +19,6 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    @IBOutlet weak var noticias: UILabel!
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            return 1
-        }
-        
-    //Criando
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath)
-            return cell
-        }
-        
-    //Altura entre células
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            return 140
-        }
-
 }

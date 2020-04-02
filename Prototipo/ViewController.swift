@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+
+    
+
     
     //definindo variáveis
     
@@ -17,7 +20,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     let histImages: [UIImage] = [UIImage(named:"cons")! , UIImage(named: "corpo")!, UIImage(named: "partes")!]
     
     let resumo = [" Dona Firmina e sua amiga sem noção", " Conhecimento do corpo humano de maneira didática e divertida!", " CHORONA VÍRUS"]
-
+    
+    
+   
     @IBOutlet weak var collectionView: UICollectionView!
     
    
@@ -48,7 +53,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return ("A história irá retratar")
     }
     
-
     
     
 
