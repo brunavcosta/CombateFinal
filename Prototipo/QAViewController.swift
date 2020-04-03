@@ -47,9 +47,7 @@ class QAViewController: UIViewController , UITableViewDataSource, UITableViewDel
             
         }
         
-        
-
-    }
-     
+   
 
 
+}

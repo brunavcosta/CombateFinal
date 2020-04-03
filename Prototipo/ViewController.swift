@@ -29,7 +29,16 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     //funcoes
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
+
+        }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        alertaCaixa()
+        //f alertaCaixa() == "Sim"{
+            
+        }
+    
+    
 
         
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -52,8 +61,17 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func repeticao () -> String{
         return ("A história irá retratar")
     }
-    
-    
+
+    //botao alerta
+    func alertaCaixa (){
+        let alerta = UIAlertController(title: "Olá! Me chamo Pi.", message: "Se for sua primeira vez no nosso App vamos conhecer para que ele serve? ", preferredStyle: .alert)
+        let acaoAvancar = UIAlertAction(title: "Sim", style: .default, handler: nil)
+        let acaoAvancar1  = UIAlertAction(title: "Não", style: .default, handler: nil)
+        alerta.addAction(acaoAvancar)
+        alerta.addAction(acaoAvancar1)
+        self.present(alerta, animated: true, completion: nil)
+        
+    }
     
 
 }

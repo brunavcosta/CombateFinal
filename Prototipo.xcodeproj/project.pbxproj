@@ -118,13 +118,11 @@
 				53E961742433895400794AA6 /* AppDelegate.swift */,
 				53E961762433895400794AA6 /* SceneDelegate.swift */,
 				F1FBDB0E2434F2AA008C7843 /* AutoChangeScript.swift */,
-				F10C67DC2437C0120079F99C /* View */,
 				53E961782433895400794AA6 /* ViewController.swift */,
 				53BF0C712436C98F0089AEC8 /* HistoriasViewController.swift */,
 				53BF0C3124355DF70089AEC8 /* InfoViewController.swift */,
 				F10C67D92437AECC0079F99C /* QAViewController.swift */,
 				F12AAB1A2436B3B100D3F326 /* DisqueViewController.swift */,
-				F10C67DD2437C04C0079F99C /* Cells */,
 				53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */,
 				F12AAB182436A8FA00D3F326 /* TableViewCell.swift */,
 				53E961A42433911F00794AA6 /* CollectionViewCell.swift */,
@@ -151,20 +149,6 @@
 				53E961982433895700794AA6 /* Info.plist */,
 			);
 			path = PrototipoUITests;
-			sourceTree = "<group>";
-		};
-		F10C67DC2437C0120079F99C /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F10C67DD2437C04C0079F99C /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		F10C67DE2437C05E0079F99C /* Storyboard */ = {
