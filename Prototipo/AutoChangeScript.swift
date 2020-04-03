@@ -11,7 +11,7 @@ import UIKit
 class AutoChangeScript: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 10){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5){
             self.performSegue(withIdentifier: "MenuScene", sender: self)
         }
 
