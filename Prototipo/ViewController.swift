@@ -11,24 +11,30 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     
-
+    
     
     //definindo variáveis
     
-    let historias = ["Consentimento", "Corpo Humano", "Partes Intimas"]
+  /*  let historias = ["Consentimento", "Corpo Humano", "Partes Intimas"]
     
     let histImages: [UIImage] = [UIImage(named:"cons")! , UIImage(named: "corpo")!, UIImage(named: "partes")!]
     
     let resumo = [" Dona Firmina e sua amiga sem noção", " Conhecimento do corpo humano de maneira didática e divertida!", " CHORONA VÍRUS"]
-    
+    */
     
    
     @IBOutlet weak var collectionView: UICollectionView!
     
-   
+   var historias:[Historia] = []
     //funcoes
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let hist1 = Historia(nome: "Consentimento", image: UIImage(named: "cons")!, resumo: " Dona Firmina e sua amiga sem noção")
+        let hist2 = Historia(nome: "Corpo Humano", image: UIImage(named: "corpo")!, resumo: " Conhecimento do corpo humano de maneira didática e divertida!")
+        let hist3 = Historia(nome: "Partes Intimas", image: UIImage(named: "partes")!, resumo: "Conhecimento do corpo humano de maneira didática e divertida!")
+        historias.append(contentsOf: [hist1, hist2, hist3])
+        
 
         }
     
@@ -46,10 +52,14 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+         let hist = historias[indexPath.row]
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath ) as! CollectionViewCell
-        cell.texto.text = repeticao() + resumo[indexPath.item]
+       /* cell.texto.text = repeticao() + resumo[indexPath.item]
         cell.labelHist1.text = historias[indexPath.item]
-        cell.hist1ImageView.image = histImages[indexPath.item]
+        cell.hist1ImageView.image = histImages[indexPath.item]*/
+        cell.texto.text = hist.resumo
+        cell.labelHist1.text = hist.titulo
+        cell.hist1ImageView.image = hist.imagem
         return cell
         
     }
