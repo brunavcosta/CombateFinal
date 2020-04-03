@@ -14,6 +14,9 @@ class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var numero: UILabel!
     
+    @IBOutlet weak var qa: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

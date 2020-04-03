@@ -37,12 +37,14 @@ class DisqueViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt
         indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
+        
         //cell.textLabel?.text = temas[indexPath.row]
         cell.numero.text = disque[indexPath.row]
     
         return cell
         
     }
+    
     
 
 }
