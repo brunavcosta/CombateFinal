@@ -82,7 +82,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         self.present(alerta, animated: true, completion: nil)
         
     }
-    
+   /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let proxV = segue.destination as? HistoriasViewController
+       
+        if let indexPath = collectionView.indexPathsForSelectedItems?.first{
+            proxV = historias.
+        }
+
+    }
+    */
 
 }
 

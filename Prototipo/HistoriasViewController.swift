@@ -18,7 +18,7 @@ class HistoriasViewController: UIViewController, UICollectionViewDelegate, UICol
     
     @IBOutlet weak var collectionView: UICollectionView!
     let consImages = ["historia1" ,  "historia2",  "historia3","historia4"]
-    
+
     /*
     // MARK: - Navigation
 
