@@ -10,6 +10,7 @@
 		53BF0C722436C98F0089AEC8 /* HistoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF0C712436C98F0089AEC8 /* HistoriasViewController.swift */; };
 		53BF0C742436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */; };
 		53CB459D2437FA8600B02614 /* ClasseNova.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB459C2437FA8600B02614 /* ClasseNova.swift */; };
+		53CB45DD2439952C00B02614 /* ClasseInformacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB45DC2439952C00B02614 /* ClasseInformacoes.swift */; };
 		53E961752433895400794AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961742433895400794AA6 /* AppDelegate.swift */; };
 		53E961772433895400794AA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961762433895400794AA6 /* SceneDelegate.swift */; };
 		53E961792433895400794AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961782433895400794AA6 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		53BF0C712436C98F0089AEC8 /* HistoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriasViewController.swift; sourceTree = "<group>"; };
 		53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriasCollectionViewCell.swift; sourceTree = "<group>"; };
 		53CB459C2437FA8600B02614 /* ClasseNova.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseNova.swift; sourceTree = "<group>"; };
+		53CB45DC2439952C00B02614 /* ClasseInformacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseInformacoes.swift; sourceTree = "<group>"; };
 		53E961712433895400794AA6 /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E961742433895400794AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53E961762433895400794AA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */,
 				F12AAB182436A8FA00D3F326 /* TableViewCell.swift */,
 				F15B049324398280002C54E6 /* InformacoesViewController.swift */,
+				53CB45DC2439952C00B02614 /* ClasseInformacoes.swift */,
 				53E961A42433911F00794AA6 /* CollectionViewCell.swift */,
 				F15B049724398629002C54E6 /* InformacoesCollectionViewCell.swift */,
 				F10C67DE2437C05E0079F99C /* Storyboard */,
@@ -300,6 +303,7 @@
 				F15B049424398280002C54E6 /* InformacoesViewController.swift in Sources */,
 				53E961792433895400794AA6 /* ViewController.swift in Sources */,
 				53BF0C742436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift in Sources */,
+				53CB45DD2439952C00B02614 /* ClasseInformacoes.swift in Sources */,
 				53E961752433895400794AA6 /* AppDelegate.swift in Sources */,
 				53E961A52433911F00794AA6 /* CollectionViewCell.swift in Sources */,
 				53E961772433895400794AA6 /* SceneDelegate.swift in Sources */,

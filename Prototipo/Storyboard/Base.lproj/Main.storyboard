@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FfR-3f-f1N">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FfR-3f-f1N">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -134,7 +134,7 @@
             </objects>
             <point key="canvasLocation" x="4795.652173913044" y="2017.6339285714284"/>
         </scene>
-        <!--Informacoes View Controller-->
+        <!--Informações-->
         <scene sceneID="PF0-tq-98L">
             <objects>
                 <viewController id="D83-jl-2pH" customClass="InformacoesViewController" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
@@ -165,7 +165,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-home_office" translatesAutoresizingMaskIntoConstraints="NO" id="pZF-SP-cVL">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pZF-SP-cVL">
                                                     <rect key="frame" x="0.0" y="0.0" width="277" height="130"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="221" id="7PT-8p-T1Z"/>
@@ -185,6 +185,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="277" height="300"/>
+                                        <connections>
+                                            <outlet property="infoImage" destination="pZF-SP-cVL" id="7Ki-fj-xU7"/>
+                                            <outlet property="infoLabel" destination="FNF-Rm-W8v" id="FXr-dL-9f3"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -217,7 +221,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="orl-gH-8g8"/>
                     </view>
-                    <navigationItem key="navigationItem" id="iQx-Jq-1hb"/>
+                    <navigationItem key="navigationItem" title="Informações" id="iQx-Jq-1hb"/>
                     <connections>
                         <outlet property="collectionView" destination="ofW-Bv-1Qj" id="7lh-al-Y2S"/>
                     </connections>
@@ -318,10 +322,10 @@
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell2" id="cAa-2y-Y1R" customClass="TableViewCell" customModule="Prototipo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="29" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="29" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cAa-2y-Y1R" id="Oyw-iV-3fY">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Mx-IG-s10">
@@ -411,10 +415,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="eJ7-dE-a9G" customClass="TableViewCell" customModule="Prototipo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eJ7-dE-a9G" id="9sZ-zI-whe">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWo-2p-N4E">
@@ -500,12 +504,12 @@
     <resources>
         <image name="blocaao lilas" width="6876" height="4214"/>
         <image name="bloco lilas claro" width="4797" height="4214"/>
-        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart" catalog="system" width="64" height="54"/>
         <image name="icons8-bookmark-1" width="25" height="25"/>
         <image name="icons8-decision" width="25" height="25"/>
         <image name="icons8-home_office" width="25" height="25"/>
         <image name="objetivo do projeto" width="3524" height="3143"/>
-        <image name="phone" catalog="system" width="128" height="115"/>
+        <image name="phone" catalog="system" width="64" height="56"/>
         <image name="piruzito olha que bad " width="3524" height="4214"/>
         <image name="piruzito pensativo" width="3524" height="4214"/>
         <image name="piruzito saca so" width="3524" height="4214"/>
