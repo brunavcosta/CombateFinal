@@ -17,7 +17,12 @@ class DisqueViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.tableFooterView = UIView()
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        let alert = UIAlertController(title: "Deseja Proceder a Denúncia?", message: "Se uma de nossas crianças está em risco, por favor continue. ", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ligar", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
+    }
     //@IBOutlet weak var numeros: UILabel!
     
     @IBOutlet weak var tableView: UITableView!

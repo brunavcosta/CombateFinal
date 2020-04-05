@@ -30,18 +30,18 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        var cont = 1
         let hist1 = Historia(nome: "Consentimento", image: UIImage(named: "cons")!, resumo: " Dona Firmina e sua amiga sem noção")
         let hist2 = Historia(nome: "Corpo Humano", image: UIImage(named: "corpo")!, resumo: " Conhecimento do corpo humano de maneira didática e divertida!")
         let hist3 = Historia(nome: "Partes Intimas", image: UIImage(named: "partes")!, resumo: "Conhecimento do corpo humano de maneira didática e divertida!")
         historias.append(contentsOf: [hist1, hist2, hist3])
         
-
+        if cont == 1{
+            alertaCaixa()
+            cont += 1
         }
     
-    override func viewWillAppear(_ animated: Bool) {
-        alertaCaixa()
-        //f alertaCaixa() == "Sim"{
-            
+
         }
     
     
@@ -74,12 +74,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     //botao alerta
     func alertaCaixa (){
-        let alerta = UIAlertController(title: "Olá! Me chamo Pi.", message: "Se for sua primeira vez no nosso App vamos conhecer para que ele serve? ", preferredStyle: .alert)
-        let acaoAvancar = UIAlertAction(title: "Sim", style: .default, handler: nil)
-        let acaoAvancar1  = UIAlertAction(title: "Não", style: .default, handler: nil)
+        let alerta = UIAlertController(title: "Olá, Meu nome é Pi!", message: "Bem-vindo ao meu mundo.\nSe quiser saber mais sobre ele clique em Objetivos na Tab Bar. :) ", preferredStyle: .alert)
+        let acaoAvancar = UIAlertAction(title: "Continuar", style: .default, handler: nil)
         alerta.addAction(acaoAvancar)
-        alerta.addAction(acaoAvancar1)
         self.present(alerta, animated: true, completion: nil)
+        
         
     }
    /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

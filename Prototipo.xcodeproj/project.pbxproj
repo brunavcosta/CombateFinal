@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53BF0C3224355DF70089AEC8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF0C3124355DF70089AEC8 /* InfoViewController.swift */; };
 		53BF0C722436C98F0089AEC8 /* HistoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF0C712436C98F0089AEC8 /* HistoriasViewController.swift */; };
 		53BF0C742436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */; };
 		53CB459D2437FA8600B02614 /* ClasseNova.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB459C2437FA8600B02614 /* ClasseNova.swift */; };
@@ -23,6 +22,8 @@
 		F10C67DA2437AECC0079F99C /* QAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C67D92437AECC0079F99C /* QAViewController.swift */; };
 		F12AAB192436A8FA00D3F326 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12AAB182436A8FA00D3F326 /* TableViewCell.swift */; };
 		F12AAB1B2436B3B100D3F326 /* DisqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12AAB1A2436B3B100D3F326 /* DisqueViewController.swift */; };
+		F15B049424398280002C54E6 /* InformacoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B049324398280002C54E6 /* InformacoesViewController.swift */; };
+		F15B049824398629002C54E6 /* InformacoesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B049724398629002C54E6 /* InformacoesCollectionViewCell.swift */; };
 		F1FBDB0F2434F2AA008C7843 /* AutoChangeScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FBDB0E2434F2AA008C7843 /* AutoChangeScript.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53BF0C3124355DF70089AEC8 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		53BF0C712436C98F0089AEC8 /* HistoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriasViewController.swift; sourceTree = "<group>"; };
 		53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriasCollectionViewCell.swift; sourceTree = "<group>"; };
 		53CB459C2437FA8600B02614 /* ClasseNova.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseNova.swift; sourceTree = "<group>"; };
@@ -66,6 +66,8 @@
 		F10C67D92437AECC0079F99C /* QAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAViewController.swift; sourceTree = "<group>"; };
 		F12AAB182436A8FA00D3F326 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F12AAB1A2436B3B100D3F326 /* DisqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisqueViewController.swift; sourceTree = "<group>"; };
+		F15B049324398280002C54E6 /* InformacoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacoesViewController.swift; sourceTree = "<group>"; };
+		F15B049724398629002C54E6 /* InformacoesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacoesCollectionViewCell.swift; sourceTree = "<group>"; };
 		F1FBDB0E2434F2AA008C7843 /* AutoChangeScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoChangeScript.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,12 +124,13 @@
 				F1FBDB0E2434F2AA008C7843 /* AutoChangeScript.swift */,
 				53E961782433895400794AA6 /* ViewController.swift */,
 				53BF0C712436C98F0089AEC8 /* HistoriasViewController.swift */,
-				53BF0C3124355DF70089AEC8 /* InfoViewController.swift */,
 				F10C67D92437AECC0079F99C /* QAViewController.swift */,
 				F12AAB1A2436B3B100D3F326 /* DisqueViewController.swift */,
 				53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */,
 				F12AAB182436A8FA00D3F326 /* TableViewCell.swift */,
+				F15B049324398280002C54E6 /* InformacoesViewController.swift */,
 				53E961A42433911F00794AA6 /* CollectionViewCell.swift */,
+				F15B049724398629002C54E6 /* InformacoesCollectionViewCell.swift */,
 				F10C67DE2437C05E0079F99C /* Storyboard */,
 				53E9617D2433895700794AA6 /* Assets.xcassets */,
 				53E961822433895700794AA6 /* Info.plist */,
@@ -294,14 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15B049424398280002C54E6 /* InformacoesViewController.swift in Sources */,
 				53E961792433895400794AA6 /* ViewController.swift in Sources */,
 				53BF0C742436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift in Sources */,
 				53E961752433895400794AA6 /* AppDelegate.swift in Sources */,
 				53E961A52433911F00794AA6 /* CollectionViewCell.swift in Sources */,
-				53BF0C3224355DF70089AEC8 /* InfoViewController.swift in Sources */,
 				53E961772433895400794AA6 /* SceneDelegate.swift in Sources */,
 				F10C67DA2437AECC0079F99C /* QAViewController.swift in Sources */,
 				53BF0C722436C98F0089AEC8 /* HistoriasViewController.swift in Sources */,
+				F15B049824398629002C54E6 /* InformacoesCollectionViewCell.swift in Sources */,
 				F12AAB192436A8FA00D3F326 /* TableViewCell.swift in Sources */,
 				F1FBDB0F2434F2AA008C7843 /* AutoChangeScript.swift in Sources */,
 				53CB459D2437FA8600B02614 /* ClasseNova.swift in Sources */,
