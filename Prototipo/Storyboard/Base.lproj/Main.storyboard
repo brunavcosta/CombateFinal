@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FfR-3f-f1N">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FfR-3f-f1N">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -337,7 +337,7 @@
             </objects>
             <point key="canvasLocation" x="3696" y="483"/>
         </scene>
-        <!--Questionários-->
+        <!--Trivia-->
         <scene sceneID="zcU-Un-Vmx">
             <objects>
                 <viewController id="M4Z-0Q-rtq" customClass="QAViewController" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
@@ -356,10 +356,10 @@
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell2" id="cAa-2y-Y1R" customClass="TableViewCell" customModule="Prototipo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="29" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="29" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cAa-2y-Y1R" id="Oyw-iV-3fY">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Mx-IG-s10">
@@ -373,6 +373,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="qa" destination="2Mx-IG-s10" id="ZwP-Oz-vCs"/>
+                                            <segue destination="TEy-eN-QAh" kind="presentation" modalPresentationStyle="fullScreen" id="eFJ-zh-3hw"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -414,7 +415,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="2ir-Mb-pZ6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Questionários" image="icons8-decision" id="rgl-Mb-XYb"/>
+                    <tabBarItem key="tabBarItem" title="Trivia" image="icons8-decision" id="rgl-Mb-XYb"/>
                     <connections>
                         <outlet property="tableView" destination="yHi-SL-bPH" id="lzd-dg-f3o"/>
                     </connections>
@@ -456,10 +457,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="eJ7-dE-a9G" customClass="TableViewCell" customModule="Prototipo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eJ7-dE-a9G" id="9sZ-zI-whe">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWo-2p-N4E">
@@ -522,6 +523,58 @@
             </objects>
             <point key="canvasLocation" x="7386.9565217391309" y="1209.375"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fJh-Ba-aZ1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m39-96-CLB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="TEy-eN-QAh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pi4-Kn-EP0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mqH-aU-rDy" kind="relationship" relationship="rootViewController" id="lok-BP-jCs"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="2861" y="1964"/>
+        </scene>
+        <!--Redireciona View Controller-->
+        <scene sceneID="Qt1-He-kkK">
+            <objects>
+                <viewController id="mqH-aU-rDy" customClass="QARedirecionaViewController" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uq0-id-lCn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7F-4G-jvO">
+                                <rect key="frame" x="95" y="130" width="224" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwq-Ye-nA0">
+                                <rect key="frame" x="161" y="421" width="101" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MT1-gz-3TX"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4my-Wf-CGM" customClass="QA"/>
+                    <connections>
+                        <outlet property="textoInfo" destination="vwq-Ye-nA0" id="K8P-1K-gjL"/>
+                        <outlet property="tituloInfo" destination="E7F-4G-jvO" id="9xL-qC-JdJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gEO-kk-ndc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2877" y="2834"/>
+        </scene>
         <!--Informações-->
         <scene sceneID="rrh-WW-zAj">
             <objects>
@@ -545,12 +598,12 @@
     <resources>
         <image name="blocaao lilas" width="6876" height="4214"/>
         <image name="bloco lilas claro" width="4797" height="4214"/>
-        <image name="heart" catalog="system" width="64" height="54"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="icons8-bookmark-1" width="25" height="25"/>
         <image name="icons8-decision" width="25" height="25"/>
         <image name="icons8-home_office" width="25" height="25"/>
         <image name="objetivo do projeto" width="3524" height="3143"/>
-        <image name="phone" catalog="system" width="64" height="56"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
         <image name="piruzito olha que bad " width="3524" height="4214"/>
         <image name="piruzito pensativo" width="3524" height="4214"/>
         <image name="piruzito saca so" width="3524" height="4214"/>

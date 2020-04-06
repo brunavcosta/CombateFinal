@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        //Cores
+        
+        //MARK: - Definindo Cores da TAB BAR
         UITabBar.appearance().backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
         UITabBar.appearance().tintColor = #colorLiteral(red: 0.9848797917, green: 0.3744229078, blue: 0.212138325, alpha: 1)
         UINavigationBar.appearance().backgroundColor = #colorLiteral(red: 0.8963574767, green: 0.512531817, blue: 1, alpha: 1)

@@ -9,9 +9,10 @@
 import UIKit
 
 class QAViewController: UIViewController , UITableViewDataSource, UITableViewDelegate {
-
     
-    
+    //MARK: - DEFININDO VARIAVEL
+    let assunto = ["Consentimento", "Corpo Humano", "Orientações para o Responsável", "Como agir perante um caso de abuso infantil"]
+    let textoqa = ["A","B","C","D"]
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -21,14 +22,8 @@ class QAViewController: UIViewController , UITableViewDataSource, UITableViewDel
         
         
         
-        
-        
-        
-        let assunto = ["Consentimento", "Corpo Humano", "Orientações para o Responsável", "Como agir perante um caso de abuso infantil"]
-
-
-
-        
+    //MARK: - Montando TableView
+    
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
             return 50
         }
@@ -46,8 +41,15 @@ class QAViewController: UIViewController , UITableViewDataSource, UITableViewDel
             return cell
             
         }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Usuário selecionou célula no índice \(indexPath.row)")
+    }
         
-   
-
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextViewController = segue.destination as? QARedirecionaViewController
+        nextViewController?.textoInfo.text = "a"
+        nextViewController?.tituloInfo.text = "B"
+    }
+    
 }
