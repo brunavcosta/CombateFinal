@@ -13,13 +13,13 @@ class Historia{
     let titulo:String
     let imagem: UIImage
     let resumo: String
-    //let url : URL!
-    // let url = URL(string: "https://www.apple.com")
+    //let url : URL
+    
     
     init(nome:String, image: UIImage, resumo : String){
         self.titulo = nome
         self.imagem = image
         self.resumo = resumo
-       // self.url = pdf
+        //self.url = pdf
     }
 }

@@ -81,15 +81,16 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         
     }
-   /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let proxV = segue.destination as? HistoriasViewController
-       
         if let indexPath = collectionView.indexPathsForSelectedItems?.first{
-            proxV = historias.
+            proxV?.historia = historias[indexPath.row]
         }
-
     }
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     
+     
+     
+   /*  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
           if let cell = sender as? UICollectionViewCell,
             let indexPath = self.collectionView.indexPath(for: cell) {
 

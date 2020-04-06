@@ -12,12 +12,12 @@ class Info{
     
     let imagem: UIImage
     let titulo: String
-    //let url : URL!
+    //let url : URL
     // let url = URL(string: "https://www.apple.com")
     
     init(nome:String, image: UIImage){
         self.titulo = nome
         self.imagem = image
-       // self.url = pdf
+        //self.url = noticia
     }
 }
