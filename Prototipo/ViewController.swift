@@ -89,6 +89,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
 
     }
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+          if let cell = sender as? UICollectionViewCell,
+            let indexPath = self.collectionView.indexPath(for: cell) {
+
+              let vc = segue.destination as! HistoriasViewController //Cast with your DestinationController
+              //Now simply set the title property of vc
+              vc.title = historias.[indexPath.row] //as String
+          }
+     }
     */
 
 }
