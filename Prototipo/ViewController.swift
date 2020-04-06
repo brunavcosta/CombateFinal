@@ -25,16 +25,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
    
     @IBOutlet weak var collectionView: UICollectionView!
     
-   var historias:[Historia] = []
+    var historias:[Historia]{return DAO.instance.historias}
     //funcoes
     override func viewDidLoad() {
         super.viewDidLoad()
         
         var cont = 1
-        let hist1 = Historia(nome: "Consentimento", image: UIImage(named: "capa")!, resumo: " a importância de manifestar aprovação em situações aonde alguém toca uma criança sem a permissão dela ou de seus pais, além de deixar claro o direito pelo seu próprio corpo.", pdf: "lista")
-        let hist2 = Historia(nome: "Corpo Humano", image: UIImage(named: "corpo")!, resumo: " conhecimento do corpo humano de maneira didática e divertida, mostrando as partes do corpo, para que servem e para quem podemos mostrar.", pdf: "lista")
-        let hist3 = Historia(nome: "Partes Intimas", image: UIImage(named: "partes")!, resumo: " conhecimento do corpo humano de maneira didática e divertida!", pdf: "lista")
-        historias.append(contentsOf: [hist1, hist2, hist3])
+        
         
         if cont == 1{
             alertaCaixa()
@@ -59,7 +56,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         cell.hist1ImageView.image = histImages[indexPath.item]*/
         cell.texto.text = repeticao() + hist.resumo
         cell.labelHist1.text = hist.titulo
-        cell.hist1ImageView.image = hist.imagem
+        cell.hist1ImageView.image = UIImage(named: hist.imagem)
         return cell
         
     }

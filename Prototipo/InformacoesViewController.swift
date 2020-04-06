@@ -13,16 +13,12 @@ class InformacoesViewController: UIViewController, UICollectionViewDataSource, U
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var informacoes:[Info] = []
+    var informacoes:[Info]{return DAO.instance.informacoes}
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let inf1 = Info(nome: "Info 1", image: UIImage(named: "cons")!)
-               let inf2 = Info(nome: "Info 2", image: UIImage(named: "corpo")!)
-               let inf3 = Info(nome: "Info 3", image: UIImage(named: "partes")!)
-               informacoes.append(contentsOf: [inf1, inf2, inf3])
-               
+       
         // Do any additional setup after loading the view.
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -37,7 +33,7 @@ class InformacoesViewController: UIViewController, UICollectionViewDataSource, U
          cell.labelHist1.text = historias[indexPath.item]
          cell.hist1ImageView.image = histImages[indexPath.item]*/
          cell.infoLabel.text = inf.titulo
-         cell.infoImage.image = inf.imagem
+         cell.infoImage.image = UIImage(named: inf.imagem)
         return cell
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

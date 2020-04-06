@@ -11,12 +11,12 @@ import UIKit
 class Historia{
     
     let titulo:String
-    let imagem: UIImage
+    let imagem: String
     let resumo: String
     let url : String
     
     
-    init(nome:String, image: UIImage, resumo : String, pdf: String){
+    init(nome:String, image: String, resumo : String, pdf: String){
         self.titulo = nome
         self.imagem = image
         self.resumo = resumo

@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 class Info{
     
-    let imagem: UIImage
+    let imagem: String
     let titulo: String
     //let url : URL
     // let url = URL(string: "https://www.apple.com")
     
-    init(nome:String, image: UIImage){
+    init(nome:String, image: String){
         self.titulo = nome
         self.imagem = image
         //self.url = noticia
