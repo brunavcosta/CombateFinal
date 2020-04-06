@@ -24,7 +24,7 @@ class QAViewController: UIViewController , UITableViewDataSource, UITableViewDel
         
         
         
-        let assunto = ["Consentimento", "Corpo", "Orientações para o Responsavel"]
+        let assunto = ["Consentimento", "Corpo Humano", "Orientações para o Responsável", "Como agir perante um caso de abuso infantil"]
 
 
 

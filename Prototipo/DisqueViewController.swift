@@ -27,16 +27,16 @@ class DisqueViewController: UIViewController, UITableViewDataSource, UITableView
     
     @IBOutlet weak var tableView: UITableView!
     
-    let disque = ["Disque 100", "Não sei", "Orientações para o Responsavel"]
+    let disque = ["Disque 100"]
 
 
 
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return 50
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return disque.count
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt
