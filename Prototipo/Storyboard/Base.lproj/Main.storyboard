@@ -303,7 +303,7 @@
             </objects>
             <point key="canvasLocation" x="3696" y="483"/>
         </scene>
-        <!--Q&A-->
+        <!--Questionários-->
         <scene sceneID="zcU-Un-Vmx">
             <objects>
                 <viewController id="M4Z-0Q-rtq" customClass="QAViewController" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
@@ -380,7 +380,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="2ir-Mb-pZ6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Q&amp;A" image="icons8-decision" id="rgl-Mb-XYb"/>
+                    <tabBarItem key="tabBarItem" title="Questionários" image="icons8-decision" id="rgl-Mb-XYb"/>
                     <connections>
                         <outlet property="tableView" destination="yHi-SL-bPH" id="lzd-dg-f3o"/>
                     </connections>
@@ -408,7 +408,7 @@
             </objects>
             <point key="canvasLocation" x="3836" y="1211"/>
         </scene>
-        <!--Disque Denúncias-->
+        <!--Denúncias-->
         <scene sceneID="VjS-lp-wnw">
             <objects>
                 <viewController id="iIh-G0-f3N" customClass="DisqueViewController" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
@@ -479,7 +479,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="kXT-OK-1GR"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Disque Denúncias" image="phone" catalog="system" id="sNE-7i-BUN"/>
+                    <tabBarItem key="tabBarItem" title="Denúncias" image="phone" catalog="system" id="sNE-7i-BUN"/>
                     <connections>
                         <outlet property="tableView" destination="GIm-aQ-f2e" id="zGa-2Y-7gq"/>
                     </connections>
@@ -488,11 +488,11 @@
             </objects>
             <point key="canvasLocation" x="7386.9565217391309" y="1209.375"/>
         </scene>
-        <!--Info-->
+        <!--Informações-->
         <scene sceneID="rrh-WW-zAj">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ih3-EC-EG0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Info" image="icons8-home_office" id="KfV-2e-8Wl"/>
+                    <tabBarItem key="tabBarItem" title="Informações" image="icons8-home_office" id="KfV-2e-8Wl"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w8A-fe-8lY">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
