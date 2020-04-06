@@ -31,9 +31,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         super.viewDidLoad()
         
         var cont = 1
-        let hist1 = Historia(nome: "Consentimento", image: UIImage(named: "cons")!, resumo: " a importância de manifestar aprovação em situações aonde alguém toca uma criança sem a permissão dela ou de seus pais, além de deixar claro o direito pelo seu próprio corpo.")
-        let hist2 = Historia(nome: "Corpo Humano", image: UIImage(named: "corpo")!, resumo: " conhecimento do corpo humano de maneira didática e divertida, mostrando as partes do corpo, para que servem e para quem podemos mostrar.")
-        let hist3 = Historia(nome: "Partes Intimas", image: UIImage(named: "partes")!, resumo: " conhecimento do corpo humano de maneira didática e divertida!")
+        let hist1 = Historia(nome: "Consentimento", image: UIImage(named: "capa")!, resumo: " a importância de manifestar aprovação em situações aonde alguém toca uma criança sem a permissão dela ou de seus pais, além de deixar claro o direito pelo seu próprio corpo.", pdf: "lista")
+        let hist2 = Historia(nome: "Corpo Humano", image: UIImage(named: "corpo")!, resumo: " conhecimento do corpo humano de maneira didática e divertida, mostrando as partes do corpo, para que servem e para quem podemos mostrar.", pdf: "lista")
+        let hist3 = Historia(nome: "Partes Intimas", image: UIImage(named: "partes")!, resumo: " conhecimento do corpo humano de maneira didática e divertida!", pdf: "lista")
         historias.append(contentsOf: [hist1, hist2, hist3])
         
         if cont == 1{
@@ -81,7 +81,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         
     }
- /*  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let proxV = segue.destination as? HistoriasViewController
         if let indexPath = collectionView.indexPathsForSelectedItems?.first{
             proxV?.historia = historias[indexPath.row]
@@ -89,7 +89,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
      
      
-     
+     /*
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
           if let cell = sender as? UICollectionViewCell,
             let indexPath = self.collectionView.indexPath(for: cell) {

@@ -1,19 +1,24 @@
 //
-//  HistoriasViewController.swift
+//  ExtraViewController.swift
 //  Prototipo
 //
-//  Created by Ana Clara Filgueiras Granato on 02/04/20.
+//  Created by Ana Clara Filgueiras Granato on 06/04/20.
 //  Copyright © 2020 Ana Clara Filgueiras Granato. All rights reserved.
 //
 
 import UIKit
 import WebKit
+class ExtraViewController: UIViewController {
 
-class HistoriasViewController: UIViewController{
-    
     @IBOutlet weak var webView: WKWebView!
-    var historia: Historia?
-    //let pdfTitle = historia?.url
+    var informacao: Info?
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
+
     /*
     // MARK: - Navigation
 
@@ -23,15 +28,5 @@ class HistoriasViewController: UIViewController{
         // Pass the selected object to the new view controller.
     }
     */
-   
-    //funcoes
-    override func viewDidLoad() {
-        super.viewDidLoad()
-       
-        
-        
 
-        // Do any additional setup after loading the view.
-    }
-    
 }

@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		53BF0C722436C98F0089AEC8 /* HistoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF0C712436C98F0089AEC8 /* HistoriasViewController.swift */; };
-		53BF0C742436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */; };
 		53CB459D2437FA8600B02614 /* ClasseNova.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB459C2437FA8600B02614 /* ClasseNova.swift */; };
 		53CB45DD2439952C00B02614 /* ClasseInformacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB45DC2439952C00B02614 /* ClasseInformacoes.swift */; };
+		53CB45DF243BD35C00B02614 /* lista.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB45DE243BD35C00B02614 /* lista.pdf */; };
+		53CB45E5243BDFA000B02614 /* ExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB45E4243BDFA000B02614 /* ExtraViewController.swift */; };
 		53E961752433895400794AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961742433895400794AA6 /* AppDelegate.swift */; };
 		53E961772433895400794AA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961762433895400794AA6 /* SceneDelegate.swift */; };
 		53E961792433895400794AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961782433895400794AA6 /* ViewController.swift */; };
@@ -47,9 +48,10 @@
 
 /* Begin PBXFileReference section */
 		53BF0C712436C98F0089AEC8 /* HistoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriasViewController.swift; sourceTree = "<group>"; };
-		53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriasCollectionViewCell.swift; sourceTree = "<group>"; };
 		53CB459C2437FA8600B02614 /* ClasseNova.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseNova.swift; sourceTree = "<group>"; };
 		53CB45DC2439952C00B02614 /* ClasseInformacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseInformacoes.swift; sourceTree = "<group>"; };
+		53CB45DE243BD35C00B02614 /* lista.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = lista.pdf; path = ../../../Desktop/lista.pdf; sourceTree = "<group>"; };
+		53CB45E4243BDFA000B02614 /* ExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraViewController.swift; sourceTree = "<group>"; };
 		53E961712433895400794AA6 /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E961742433895400794AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53E961762433895400794AA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,9 +130,9 @@
 				53BF0C712436C98F0089AEC8 /* HistoriasViewController.swift */,
 				F10C67D92437AECC0079F99C /* QAViewController.swift */,
 				F12AAB1A2436B3B100D3F326 /* DisqueViewController.swift */,
-				53BF0C732436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift */,
 				F12AAB182436A8FA00D3F326 /* TableViewCell.swift */,
 				F15B049324398280002C54E6 /* InformacoesViewController.swift */,
+				53CB45E4243BDFA000B02614 /* ExtraViewController.swift */,
 				53CB45DC2439952C00B02614 /* ClasseInformacoes.swift */,
 				53E961A42433911F00794AA6 /* CollectionViewCell.swift */,
 				F15B049724398629002C54E6 /* InformacoesCollectionViewCell.swift */,
@@ -138,6 +140,7 @@
 				53E9617D2433895700794AA6 /* Assets.xcassets */,
 				53E961822433895700794AA6 /* Info.plist */,
 				53CB459C2437FA8600B02614 /* ClasseNova.swift */,
+				53CB45DE243BD35C00B02614 /* lista.pdf */,
 			);
 			path = Prototipo;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E961812433895700794AA6 /* LaunchScreen.storyboard in Resources */,
+				53CB45DF243BD35C00B02614 /* lista.pdf in Resources */,
 				53E9617E2433895700794AA6 /* Assets.xcassets in Resources */,
 				53E9617C2433895400794AA6 /* Main.storyboard in Resources */,
 			);
@@ -302,12 +306,12 @@
 			files = (
 				F15B049424398280002C54E6 /* InformacoesViewController.swift in Sources */,
 				53E961792433895400794AA6 /* ViewController.swift in Sources */,
-				53BF0C742436C9EB0089AEC8 /* HistoriasCollectionViewCell.swift in Sources */,
 				53CB45DD2439952C00B02614 /* ClasseInformacoes.swift in Sources */,
 				53E961752433895400794AA6 /* AppDelegate.swift in Sources */,
 				53E961A52433911F00794AA6 /* CollectionViewCell.swift in Sources */,
 				53E961772433895400794AA6 /* SceneDelegate.swift in Sources */,
 				F10C67DA2437AECC0079F99C /* QAViewController.swift in Sources */,
+				53CB45E5243BDFA000B02614 /* ExtraViewController.swift in Sources */,
 				53BF0C722436C98F0089AEC8 /* HistoriasViewController.swift in Sources */,
 				F15B049824398629002C54E6 /* InformacoesCollectionViewCell.swift in Sources */,
 				F12AAB192436A8FA00D3F326 /* TableViewCell.swift in Sources */,

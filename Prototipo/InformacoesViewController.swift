@@ -40,7 +40,11 @@ class InformacoesViewController: UIViewController, UICollectionViewDataSource, U
          cell.infoImage.image = inf.imagem
         return cell
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let proxV = segue.destination as? ExtraViewController
+        if let indexPath = collectionView.indexPathsForSelectedItems?.first{
+            proxV?.informacao = informacoes[indexPath.row]
+        }
+    }
     
-
-
 }
