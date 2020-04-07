@@ -10,8 +10,6 @@ import UIKit
 import WebKit
 
 class HistoriasViewController: UIViewController{
-    let imagesToShare: [UIImage] = [#imageLiteral(resourceName: "piruzito saca so")]
-    
     @IBOutlet weak var webView: WKWebView!
     var historia: Historia?
     //let pdfTitle = historia?.url
@@ -28,13 +26,14 @@ class HistoriasViewController: UIViewController{
     //funcoes
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        
+        //let path = Bundle.main.path(forResource: historia?.url, ofType: "pdf")
+        //let url = URL(fileURLWithPath: path!)
+        //let request = URLRequest(url: url)
+        //webView.load(request)
         
 
         // Do any additional setup after loading the view.
     }
-    
     //MARK: NAO APAGA CACA
   /*  func presentShareSheet(){
         let image = UIImage(named: "partes")!
