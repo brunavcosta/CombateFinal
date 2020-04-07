@@ -115,11 +115,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsa-9Y-qHr">
-                                <rect key="frame" x="179" y="159" width="57" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conscentimento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsa-9Y-qHr">
+                                <rect key="frame" x="42" y="119" width="330" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="34"/>
+                                <color key="textColor" red="0.25791617750000001" green="0.099342786619999998" blue="0.31059644669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="piruzito viajante" translatesAutoresizingMaskIntoConstraints="NO" id="h2L-UH-jGZ">
+                                <rect key="frame" x="12" y="628" width="151" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6c-r9-6Go">
+                                <rect key="frame" x="42" y="202" width="330" height="448"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.3861507884" green="0.161588281" blue="0.52508328049999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -127,10 +138,14 @@
                         <viewLayoutGuide key="safeArea" id="7BM-5A-NMS"/>
                     </view>
                     <navigationItem key="navigationItem" id="hSx-LZ-nOX"/>
+                    <connections>
+                        <outlet property="textoInfo" destination="i6c-r9-6Go" id="bQc-fv-3vH"/>
+                        <outlet property="tituloInfo" destination="Nsa-9Y-qHr" id="neu-yF-shC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ckx-Ax-cGe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3748" y="2018"/>
+            <point key="canvasLocation" x="3747.826086956522" y="2069.8660714285716"/>
         </scene>
         <!--Historias View Controller-->
         <scene sceneID="i85-Jn-f2X">
@@ -398,7 +413,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="qa" destination="2Mx-IG-s10" id="ZwP-Oz-vCs"/>
-                                            <segue destination="BcD-dc-3CX" kind="show" id="HiF-Xg-rij"/>
+                                            <segue destination="BcD-dc-3CX" kind="show" identifier="caminhoSegue" id="HiF-Xg-rij"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

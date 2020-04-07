@@ -41,14 +41,22 @@ class QAViewController: UIViewController , UITableViewDataSource, UITableViewDel
             return cell
             
         }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Usuário selecionou célula no índice \(indexPath.row)")
-    }
+    //MARK: TA DUPLICANDO A VIEW
+   /* func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let texto = textoqa[indexPath.row]
         
+        performSegue(withIdentifier: "caminhoSegue", sender: self)
+        
+    }*/
+ 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let nextViewController = segue.destination as? QARedirecionaViewController
-       //nextViewController?.textoInfo.text = "AAAAAAA"
+        if segue.identifier == "caminhoSegue"{
+        let destVC = segue.destination as? QARedirecionaViewController
+            destVC?.texto1 = sender as? ClasseQA
+
+            
+        }
     }
     
+
 }

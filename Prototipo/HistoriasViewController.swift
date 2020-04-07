@@ -10,6 +10,7 @@ import UIKit
 import WebKit
 
 class HistoriasViewController: UIViewController{
+    let imagesToShare: [UIImage] = [#imageLiteral(resourceName: "piruzito saca so")]
     
     @IBOutlet weak var webView: WKWebView!
     var historia: Historia?
@@ -33,5 +34,15 @@ class HistoriasViewController: UIViewController{
 
         // Do any additional setup after loading the view.
     }
+    
+    //MARK: NAO APAGA CACA
+  /*  func presentShareSheet(){
+        let image = UIImage(named: "partes")!
+        let imagesToShare = [image]
+        let shareSheet = UIActivityViewController(activityItems: imagesToShare, applicationActivities: nil)
+        shareSheet.popoverPresentationController?.sourceView = self.view
+        //shareSheet.excludeActivityTypes = [.postToVimeo, .postToWeibo]
+        self.present(shareSheet, animated:true, completion: nil)
+    }*/
     
 }
