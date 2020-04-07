@@ -48,8 +48,7 @@ class QAViewController: UIViewController , UITableViewDataSource, UITableViewDel
         
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let nextViewController = segue.destination as? QARedirecionaViewController
-        nextViewController?.textoInfo.text = "a"
-        nextViewController?.tituloInfo.text = "B"
+       //nextViewController?.textoInfo.text = "AAAAAAA"
     }
     
 }
