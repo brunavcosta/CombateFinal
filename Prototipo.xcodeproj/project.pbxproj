@@ -15,9 +15,9 @@
 		53CB45FD243D4E7300B02614 /* lista.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB45FC243D4E7300B02614 /* lista.pdf */; };
 		53CB45FE243D4E7300B02614 /* lista.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB45FC243D4E7300B02614 /* lista.pdf */; };
 		53CB45FF243D4E7300B02614 /* lista.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB45FC243D4E7300B02614 /* lista.pdf */; };
-		53CB4601243E29D000B02614 /* cons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB4600243E29CF00B02614 /* cons.pdf */; };
-		53CB4602243E29D000B02614 /* cons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB4600243E29CF00B02614 /* cons.pdf */; };
-		53CB4603243E29D000B02614 /* cons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB4600243E29CF00B02614 /* cons.pdf */; };
+		53CB4605243E2B6B00B02614 /* cons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB4604243E2B6B00B02614 /* cons.pdf */; };
+		53CB4606243E2B6B00B02614 /* cons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB4604243E2B6B00B02614 /* cons.pdf */; };
+		53CB4607243E2B6B00B02614 /* cons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB4604243E2B6B00B02614 /* cons.pdf */; };
 		53E961752433895400794AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961742433895400794AA6 /* AppDelegate.swift */; };
 		53E961772433895400794AA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961762433895400794AA6 /* SceneDelegate.swift */; };
 		53E961792433895400794AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961782433895400794AA6 /* ViewController.swift */; };
@@ -61,7 +61,7 @@
 		53CB45E4243BDFA000B02614 /* ExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraViewController.swift; sourceTree = "<group>"; };
 		53CB45E8243BF06E00B02614 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 		53CB45FC243D4E7300B02614 /* lista.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = lista.pdf; sourceTree = "<group>"; };
-		53CB4600243E29CF00B02614 /* cons.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cons.pdf; sourceTree = "<group>"; };
+		53CB4604243E2B6B00B02614 /* cons.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cons.pdf; sourceTree = "<group>"; };
 		53E961712433895400794AA6 /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E961742433895400794AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53E961762433895400794AA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				53CB45FC243D4E7300B02614 /* lista.pdf */,
-				53CB4600243E29CF00B02614 /* cons.pdf */,
+				53CB4604243E2B6B00B02614 /* cons.pdf */,
 				53E961742433895400794AA6 /* AppDelegate.swift */,
 				53E961762433895400794AA6 /* SceneDelegate.swift */,
 				F1FBDB0E2434F2AA008C7843 /* AutoChangeScript.swift */,
@@ -296,7 +296,7 @@
 				53E9617E2433895700794AA6 /* Assets.xcassets in Resources */,
 				53CB45FD243D4E7300B02614 /* lista.pdf in Resources */,
 				53E9617C2433895400794AA6 /* Main.storyboard in Resources */,
-				53CB4601243E29D000B02614 /* cons.pdf in Resources */,
+				53CB4605243E2B6B00B02614 /* cons.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53CB45FE243D4E7300B02614 /* lista.pdf in Resources */,
-				53CB4602243E29D000B02614 /* cons.pdf in Resources */,
+				53CB4606243E2B6B00B02614 /* cons.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53CB45FF243D4E7300B02614 /* lista.pdf in Resources */,
-				53CB4603243E29D000B02614 /* cons.pdf in Resources */,
+				53CB4607243E2B6B00B02614 /* cons.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
