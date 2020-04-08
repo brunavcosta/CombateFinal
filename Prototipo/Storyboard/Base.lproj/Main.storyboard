@@ -32,21 +32,21 @@
                                 <size key="shadowOffset" width="1" height="-1"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ARK-3F-kd4">
-                                <rect key="frame" x="0.0" y="187" width="414" height="431"/>
+                                <rect key="frame" x="0.0" y="181" width="414" height="431"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nwk-z3-ULy">
-                                    <size key="itemSize" width="309" height="426"/>
+                                    <size key="itemSize" width="309" height="412"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="ESX-Wm-6Gy" userLabel="Cell" customClass="CollectionViewCell" customModule="Prototipo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="2.5" width="309" height="426"/>
+                                        <rect key="frame" x="0.0" y="9.5" width="309" height="412"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zhi-5X-fHe">
-                                            <rect key="frame" x="0.0" y="0.0" width="309" height="426"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="309" height="412"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YfM-rz-92d" userLabel="imageHist">
@@ -71,7 +71,7 @@
                                                 </label>
                                             </subviews>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="309" height="426"/>
+                                        <size key="customSize" width="309" height="412"/>
                                         <connections>
                                             <outlet property="hist1ImageView" destination="YfM-rz-92d" id="ANZ-km-3nU"/>
                                             <outlet property="labelHist1" destination="G3l-vi-ok0" id="tUZ-hk-STt"/>
@@ -98,9 +98,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Escolha para onde eu devo viajar agora!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIW-5C-yeE">
-                                <rect key="frame" x="176" y="646" width="223" height="123"/>
+                                <rect key="frame" x="221" y="656" width="178" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="27"/>
                                 <color key="textColor" red="0.2263556518" green="0.1052913038" blue="0.285055528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -142,10 +142,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyd-xk-Wy6">
-                                <rect key="frame" x="75" y="163" width="319" height="429"/>
+                                <rect key="frame" x="55" y="179" width="302" height="364"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.3861507884" green="0.161588281" blue="0.52508328049999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.2423849638553798" green="0.10016163233371859" blue="0.33441069162436543" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="planetinha " translatesAutoresizingMaskIntoConstraints="NO" id="wu7-1Q-kOi">
@@ -162,12 +162,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="hSx-LZ-nOX"/>
                     <connections>
+                        <outlet property="textoInfo" destination="Yyd-xk-Wy6" id="oDq-x5-tdK"/>
                         <outlet property="tituloInfo" destination="Nsa-9Y-qHr" id="neu-yF-shC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ckx-Ax-cGe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3748" y="2018"/>
+            <point key="canvasLocation" x="3747.826086956522" y="2017.6339285714284"/>
         </scene>
         <!--Historias View Controller-->
         <scene sceneID="i85-Jn-f2X">
@@ -208,48 +209,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ofW-Bv-1Qj">
-                                <rect key="frame" x="0.0" y="385" width="414" height="428"/>
+                                <rect key="frame" x="0.0" y="429" width="414" height="384"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Csb-21-lbk">
-                                    <size key="itemSize" width="277" height="300"/>
+                                    <size key="itemSize" width="280" height="294"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="RtY-oS-TB9" customClass="InformacoesCollectionViewCell" customModule="Prototipo" customModuleProvider="target">
-                                        <rect key="frame" x="68.5" y="0.0" width="277" height="300"/>
+                                        <rect key="frame" x="67" y="0.0" width="280" height="294"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="I4G-s5-DnR">
-                                            <rect key="frame" x="0.0" y="0.0" width="277" height="300"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="294"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNF-Rm-W8v">
-                                                    <rect key="frame" x="0.0" y="150" width="277" height="150"/>
+                                                    <rect key="frame" x="0.0" y="179" width="280" height="115"/>
                                                     <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pZF-SP-cVL">
-                                                    <rect key="frame" x="0.0" y="0.0" width="277" height="130"/>
+                                                    <rect key="frame" x="0.0" y="28" width="280" height="130"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="221" id="7PT-8p-T1Z"/>
-                                                        <constraint firstAttribute="height" constant="130" id="8Bx-qg-oiv"/>
+                                                        <constraint firstAttribute="height" constant="130" id="m41-k8-Inb"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="pZF-SP-cVL" firstAttribute="top" secondItem="I4G-s5-DnR" secondAttribute="top" id="AXn-uK-Z2c"/>
-                                                <constraint firstItem="FNF-Rm-W8v" firstAttribute="top" secondItem="I4G-s5-DnR" secondAttribute="top" constant="150" id="Fdo-mc-IqK"/>
                                                 <constraint firstAttribute="trailing" secondItem="pZF-SP-cVL" secondAttribute="trailing" id="HlP-7c-3sf"/>
                                                 <constraint firstAttribute="trailing" secondItem="FNF-Rm-W8v" secondAttribute="trailing" id="Nsz-tt-qHm"/>
+                                                <constraint firstItem="pZF-SP-cVL" firstAttribute="top" secondItem="I4G-s5-DnR" secondAttribute="top" constant="28" id="UhE-pM-bws"/>
                                                 <constraint firstItem="pZF-SP-cVL" firstAttribute="leading" secondItem="I4G-s5-DnR" secondAttribute="leading" id="XU1-dO-fZU"/>
                                                 <constraint firstItem="FNF-Rm-W8v" firstAttribute="leading" secondItem="I4G-s5-DnR" secondAttribute="leading" id="cwv-mV-hsU"/>
                                                 <constraint firstAttribute="bottom" secondItem="FNF-Rm-W8v" secondAttribute="bottom" id="f9J-ss-h8T"/>
+                                                <constraint firstItem="FNF-Rm-W8v" firstAttribute="top" secondItem="pZF-SP-cVL" secondAttribute="bottom" constant="21" id="tIU-lr-Xnj"/>
                                                 <constraint firstAttribute="trailing" secondItem="pZF-SP-cVL" secondAttribute="trailing" id="vAD-WG-2ue"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="277" height="300"/>
+                                        <size key="customSize" width="280" height="294"/>
                                         <connections>
                                             <outlet property="infoImage" destination="pZF-SP-cVL" id="7Ki-fj-xU7"/>
                                             <outlet property="infoLabel" destination="FNF-Rm-W8v" id="FXr-dL-9f3"/>
@@ -276,7 +277,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobre qual assunto quer descobrir mais?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXX-8d-SuY">
-                                <rect key="frame" x="40" y="162" width="171" height="123"/>
+                                <rect key="frame" x="44" y="162" width="171" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                 <color key="textColor" red="0.2263556518" green="0.1052913038" blue="0.285055528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -339,38 +340,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh8-bN-dmd">
-                                <rect key="frame" x="39" y="479" width="348" height="174"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">O Projeto Piruzito propõe um momento de reflexão e debate entre educador e aluno / responsáveis e seus filhos através de histórias com conteúdo acessível e adequado para as crianças de todas as idades. Buscamos tratar de temas pertinentes para um desenvolvimento saudável além de ajudar a proteger nossas crianças através do conhecimento e informação. </string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" red="0.30209770800000002" green="0.1146955863" blue="0.36080396180000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaM-cS-lCJ">
-                                <rect key="frame" x="39" y="641" width="348" height="163"/>
+                                <rect key="frame" x="39" y="631" width="348" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Com narrativas de fácil entendimento e situações representativas, é possível abordar e discutir questões como consentimento e privacidade de forma lúdica e interessante tanto para o educador e responsável quanto para as crianças.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.30209770800000002" green="0.1146955863" blue="0.36080396180000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texto lilas " translatesAutoresizingMaskIntoConstraints="NO" id="1gu-7m-akS">
-                                <rect key="frame" x="0.0" y="350" width="285" height="163"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="espaco" translatesAutoresizingMaskIntoConstraints="NO" id="cMd-7I-f6a">
+                                <rect key="frame" x="-94" y="46" width="589" height="350"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Objetivo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUq-r9-yWx">
-                                <rect key="frame" x="59" y="401" width="362" height="61"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texto lilas " translatesAutoresizingMaskIntoConstraints="NO" id="zUD-rc-0bl">
+                                <rect key="frame" x="-3" y="342" width="285" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Objetivo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egh-ft-lQK">
+                                <rect key="frame" x="56" y="393" width="362" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="34"/>
                                 <color key="textColor" red="0.30209770800000002" green="0.1146955863" blue="0.36080396180000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="1" height="-1"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="espaco" translatesAutoresizingMaskIntoConstraints="NO" id="cMd-7I-f6a">
-                                <rect key="frame" x="-63" y="44" width="516" height="361"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh8-bN-dmd">
+                                <rect key="frame" x="39" y="441" width="348" height="241"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <string key="text">O Projeto Piruzito propõe um momento de reflexão e debate entre educador e aluno / responsáveis e seus filhos através de histórias com conteúdo acessível e adequado para as crianças de todas as idades. Buscamos tratar de temas pertinentes para um desenvolvimento saudável além de ajudar a proteger nossas crianças através do conhecimento e informação. </string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.30209770800000002" green="0.1146955863" blue="0.36080396180000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="VH8-g5-gZb"/>
@@ -460,7 +461,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="piruzito saca so" translatesAutoresizingMaskIntoConstraints="NO" id="WBC-MC-3AD">
-                                <rect key="frame" x="-18" y="107" width="240" height="208"/>
+                                <rect key="frame" x="-12" y="107" width="240" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aqui temos as perguntas para se fazer em sala. Qual tema quer revisar em sala?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPt-dw-ogB">
@@ -475,9 +476,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vamos continuar e reforçar o conhecimento das crianças em sala de aula?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6On-Ps-cs5">
-                                <rect key="frame" x="212" y="107" width="143" height="208"/>
+                                <rect key="frame" x="206" y="100" width="158" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="21"/>
                                 <color key="textColor" red="0.25791617750000001" green="0.099342786619999998" blue="0.31059644669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>

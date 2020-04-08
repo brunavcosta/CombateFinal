@@ -29,7 +29,7 @@ static var instance = DAO()
     }
     func criaNoticias(){
         let inf1 = Info(nome: "Como Identificar Sinais de Abuso Infantil",image: "calcinha", pdf: "sinais")
-        let inf2 = Info(nome: "privacidade",image:"casa", pdf: "lista")
+        let inf2 = Info(nome: "Privacidade",image:"casa", pdf: "lista")
         informacoes.append(contentsOf: [inf1, inf2])
     }
     

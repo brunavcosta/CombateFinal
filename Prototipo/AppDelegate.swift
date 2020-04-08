@@ -17,10 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         //MARK: - Definindo Cores da TAB BAR
-        UITabBar.appearance().backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
-        UITabBar.appearance().tintColor = #colorLiteral(red: 0.9848797917, green: 0.3744229078, blue: 0.212138325, alpha: 1)
-        UINavigationBar.appearance().backgroundColor = #colorLiteral(red: 0.8963574767, green: 0.512531817, blue: 1, alpha: 1)
-        UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0.8973073363, green: 0.8377479911, blue: 1, alpha: 1)
+        UITabBar.appearance().backgroundColor = #colorLiteral(red: 0.5747733712, green: 0.4799013734, blue: 0.993077457, alpha: 1)
+        UITabBar.appearance().tintColor = #colorLiteral(red: 1, green: 0.300340116, blue: 0.2921018302, alpha: 1)
+        UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0.9027032852, green: 0.8916537166, blue: 1, alpha: 1)
 
         return true
     }
