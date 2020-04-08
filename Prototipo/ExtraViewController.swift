@@ -14,7 +14,10 @@ class ExtraViewController: UIViewController {
     var informacao: Info?
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let path = Bundle.main.path(forResource: informacao?.url, ofType: "pdf")
+        let url = URL(fileURLWithPath: path!)
+        let request = URLRequest(url: url)
+        webView.load(request)
         // Do any additional setup after loading the view.
     }
     
