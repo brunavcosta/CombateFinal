@@ -26,10 +26,10 @@ class HistoriasViewController: UIViewController{
     //funcoes
     override func viewDidLoad() {
         super.viewDidLoad()
-        //let path = Bundle.main.path(forResource: historia?.url, ofType: "pdf")
-        //let url = URL(fileURLWithPath: path!)
-        //let request = URLRequest(url: url)
-        //webView.load(request)
+        let path = Bundle.main.path(forResource: historia?.url, ofType: "pdf")
+        let url = URL(fileURLWithPath: path!)
+        let request = URLRequest(url: url)
+        webView.load(request)
         
 
         // Do any additional setup after loading the view.
