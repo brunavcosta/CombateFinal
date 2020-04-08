@@ -28,10 +28,10 @@ static var instance = DAO()
 
     }
     func criaNoticias(){
-        let inf1 = Info(nome: "Info 1",image: "cons")
-        let inf2 = Info(nome: "Info 2",image:"corpo")
-        let inf3 = Info(nome: "Info 3",image: "partes")
-        informacoes.append(contentsOf: [inf1, inf2, inf3])
+        let inf1 = Info(nome: "partes intimas",image: "calcinha")
+        let inf2 = Info(nome: "privacidade",image:"casa")
+        
+        informacoes.append(contentsOf: [inf1, inf2])
     }
     
 }
