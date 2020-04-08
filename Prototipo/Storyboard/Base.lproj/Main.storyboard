@@ -97,6 +97,13 @@
                                 <rect key="frame" x="130" y="601" width="402" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Escolha para onde eu devo viajar agora!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIW-5C-yeE">
+                                <rect key="frame" x="176" y="646" width="223" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
+                                <color key="textColor" red="0.2263556518" green="0.1052913038" blue="0.285055528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <accessibility key="accessibilityConfiguration" identifier="NextViewController"/>
@@ -119,26 +126,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conscentimento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsa-9Y-qHr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Consentimento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsa-9Y-qHr">
                                 <rect key="frame" x="0.0" y="89" width="414" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
                                 <color key="textColor" red="0.25791617750000001" green="0.099342786619999998" blue="0.31059644669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6c-r9-6Go">
-                                <rect key="frame" x="53" y="211" width="319" height="429"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloco fundo roxo" translatesAutoresizingMaskIntoConstraints="NO" id="Shr-0a-uly">
+                                <rect key="frame" x="-357" y="373" width="1129" height="602"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloco perguntas " translatesAutoresizingMaskIntoConstraints="NO" id="mEF-tc-V68">
+                                <rect key="frame" x="0.0" y="125" width="414" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyd-xk-Wy6">
+                                <rect key="frame" x="75" y="163" width="319" height="429"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.3861507884" green="0.161588281" blue="0.52508328049999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloco fundo roxo" translatesAutoresizingMaskIntoConstraints="NO" id="Shr-0a-uly">
-                                <rect key="frame" x="-357" y="373" width="1129" height="602"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="planetinha " translatesAutoresizingMaskIntoConstraints="NO" id="wu7-1Q-kOi">
+                                <rect key="frame" x="247" y="712" width="147" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="piruzito viajante" translatesAutoresizingMaskIntoConstraints="NO" id="tVo-t3-PLq">
-                                <rect key="frame" x="20" y="601" width="151" height="165"/>
+                                <rect key="frame" x="132" y="592" width="151" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -147,7 +162,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="hSx-LZ-nOX"/>
                     <connections>
-                        <outlet property="textoInfo" destination="i6c-r9-6Go" id="bQc-fv-3vH"/>
                         <outlet property="tituloInfo" destination="Nsa-9Y-qHr" id="neu-yF-shC"/>
                     </connections>
                 </viewController>
@@ -338,7 +352,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Objetivo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUq-r9-yWx">
-                                <rect key="frame" x="52" y="401" width="362" height="61"/>
+                                <rect key="frame" x="59" y="401" width="362" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="34"/>
                                 <color key="textColor" red="0.30209770800000002" green="0.1146955863" blue="0.36080396180000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -467,6 +481,10 @@
                                 <color key="textColor" red="0.25791617750000001" green="0.099342786619999998" blue="0.31059644669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="planetinha " translatesAutoresizingMaskIntoConstraints="NO" id="I9g-Fc-sEk">
+                                <rect key="frame" x="208" y="270" width="147" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="2ir-Mb-pZ6"/>
@@ -627,6 +645,7 @@
         <image name="blocaao lilas" width="6876" height="4214"/>
         <image name="bloco fundo roxo" width="3240" height="5760"/>
         <image name="bloco lilas claro" width="4797" height="4214"/>
+        <image name="bloco perguntas " width="3240" height="3912"/>
         <image name="espaço.png " width="3780" height="4214"/>
         <image name="heart" catalog="system" width="64" height="54"/>
         <image name="icons8-bookmark-1" width="25" height="25"/>
@@ -637,6 +656,7 @@
         <image name="piruzito pensativo" width="3524" height="4214"/>
         <image name="piruzito saca so" width="3524" height="4214"/>
         <image name="piruzito viajante" width="3524" height="4214"/>
+        <image name="planetinha " width="1087" height="712"/>
         <image name="quadrado lilas" width="3790" height="4214"/>
         <image name="texto lilas " width="3240" height="1584"/>
     </resources>
