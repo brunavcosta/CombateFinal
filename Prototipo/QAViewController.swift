@@ -11,8 +11,8 @@ import UIKit
 class QAViewController: UIViewController , UITableViewDataSource, UITableViewDelegate {
     
     //MARK: - DEFININDO VARIAVEL
-    let assunto = ["Consentimento", "Corpo Humano", "Privacidade"]
-    let textoqa = ["1) Por que a mãe pediu pra amiga perguntar pro filho se ela podia fazer carinho nele?\n\n2) No seu corpo, quem é o dono?\n\n3) Se alguém tocar em você mesmo depois de você falar não, o que você faz?\n\n4) Você pede permissão antes de tocar nas pessoas?\n\n5) Você sabe o que é consentimento? ","1) Por que a mãe pediu pras nao tocarem em suas partes intimas?\n\n2) Você sabe o que sao partes intimas?\n\n3) Quem e quando que pode tocar em nossas partes intimas?\n\n4) Por que não podemos tocar nas partes intimas dos outros?\n\n5) Do que voces chamas as partes intimas?","1) Por que a mãe pediu pras criancas se vestirem?\n\n2) Você sabe o que é privacidade?\n\n3) Quem é que pode nos ver sem roupa?\n\n4) Por que não podemos andar pelados por ai?"]
+    let assunto = ["Consentimento", "Privacidade"]
+    let textoqa = ["1) Por que a mãe pediu pra amiga perguntar pro filho se ela podia fazer carinho nele?\n\n2) No seu corpo, quem é o dono?\n\n3) Se alguém tocar em você mesmo depois de você falar não, o que você faz?\n\n4) Você pede permissão antes de tocar nas pessoas?\n\n5) Você sabe o que é consentimento? ","1) Por que a mãe pediu pras criancas se vestirem?\n\n2) Você sabe o que é privacidade?\n\n3) Quem é que pode nos ver sem roupa?\n\n4) Por que não podemos andar pelados por ai?"]
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -25,7 +25,7 @@ class QAViewController: UIViewController , UITableViewDataSource, UITableViewDel
     //MARK: - Montando TableView
     
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            return 50
+            return 60
         }
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return assunto.count
