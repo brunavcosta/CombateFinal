@@ -15,9 +15,9 @@ class Info{
     let url : String
     // let url = URL(string: "https://www.apple.com")
     
-    init(nome:String, image: String, pdf: String){
+    init(nome:String, image: String, url: String){
         self.titulo = nome
         self.imagem = image
-        self.url = pdf
+        self.url = url
     }
 }

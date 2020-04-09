@@ -27,8 +27,8 @@ static var instance = DAO()
 
     }
     func criaNoticias(){
-        let inf1 = Info(nome: "Como Identificar Sinais de Abuso Infantil",image: "calcinha", pdf: "https://www.childhood.org.br/10-maneiras-de-identificar-possiveis-sinais-de-abuso-sexual-infanto-juvenil")
-        let inf2 = Info(nome: "Privacidade",image:"casa", pdf: "https://www.childhood.org.br/abuso-sexual-infantil-mitos-x-realidades")
+        let inf1 = Info(nome: "Como Identificar Sinais de Abuso Infantil",image: "calcinha", url: "https://www.childhood.org.br/10-maneiras-de-identificar-possiveis-sinais-de-abuso-sexual-infanto-juvenil")
+        let inf2 = Info(nome: "Privacidade",image:"casa", url: "https://www.childhood.org.br/abuso-sexual-infantil-mitos-x-realidades")
         informacoes.append(contentsOf: [inf1, inf2])
     }
     
