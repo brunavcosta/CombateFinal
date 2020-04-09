@@ -2,13 +2,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "piruzito viajante.png",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
       "filename" : "sinais  .jpg",
-      "scale" : "2x"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
