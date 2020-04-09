@@ -10,16 +10,52 @@ import UIKit
 import WebKit
 class ExtraViewController: UIViewController {
 
-    @IBOutlet weak var webView: WKWebView!
+    //@IBOutlet weak var webView: WKWebView!
     var informacao: Info?
+    //override func viewDidLoad() {
+        //super.viewDidLoad()
+        //let path = Bundle.main.path(forResource: informacao?.url, ofType: "pdf")
+       // let url = URL(fileURLWithPath: path!)
+        //let request = URLRequest(url: url)
+        //webView.load(request)
+        // Do any additional setup after loading the view.
+   // }
+    //var webView: WKWebView!
+    var webView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let path = Bundle.main.path(forResource: informacao?.url, ofType: "pdf")
-        let url = URL(fileURLWithPath: path!)
-        let request = URLRequest(url: url)
-        webView.load(request)
         // Do any additional setup after loading the view.
+        
     }
+    
+    override func loadView() {
+        webView = WKWebView()
+        webView.navigationDelegate = self as? WKNavigationDelegate
+        view = webView
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        let url = URL(string: informacao!.url)!
+        webView.load(URLRequest(url: url))
+        webView.allowsBackForwardNavigationGestures = true
+        webView.navigationDelegate = self as? WKNavigationDelegate
+    }
+    
+   /* override func loadView() {
+        webView = WKWebView()
+        webView.navigationDelegate = self as? WKNavigationDelegate
+        view = webView
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        let url = URL(string: informacao!.url)
+        webView.load(URLRequest(url: url!))
+        webView.allowsBackForwardNavigationGestures = true
+        webView.navigationDelegate = self as? WKNavigationDelegate
+    }
+    
     
 
     /*
@@ -30,6 +66,6 @@ class ExtraViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+    */*/
 
 }
