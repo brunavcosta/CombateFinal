@@ -21,7 +21,7 @@ static var instance = DAO()
     
     
     func criaHistorias() {
-        let hist1 = Historia(nome: "Consentimento", image:"capa", resumo: " a importância de manifestar aprovação em situações aonde alguém toca uma criança sem a permissão dela ou de seus pais, além de deixar claro o direito pelo seu próprio corpo.", pdf: "cons")
+        let hist1 = Historia(nome: "Consentimento", image:"capa", resumo: " a importância de manifestar aprovação em situações aonde alguém toca uma criança sem a permissão dela ou de seus pais, além de deixar claro o direito pelo seu próprio corpo.", pdf: "cons2")
         let hist2 = Historia(nome: "Em Breve", image:"privacidade", resumo: " conhecimento do corpo humano de maneira didática e divertida, mostrando as partes do corpo, para que servem e para quem podemos mostrar.", pdf: "lista")
         historias.append(contentsOf: [hist1, hist2])
 
