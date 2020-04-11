@@ -30,10 +30,10 @@
 		53E9618C2433895700794AA6 /* PrototipoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E9618B2433895700794AA6 /* PrototipoTests.swift */; };
 		53E961972433895700794AA6 /* PrototipoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961962433895700794AA6 /* PrototipoUITests.swift */; };
 		53E961A52433911F00794AA6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E961A42433911F00794AA6 /* CollectionViewCell.swift */; };
+		7A3220F724421B08006CCA93 /* consfinal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A3220F624421B08006CCA93 /* consfinal.pdf */; };
 		7AF45EEC243F975D00DC8BB1 /* PatuaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF45EEB243F975D00DC8BB1 /* PatuaOne-Regular.ttf */; };
 		7AF45EED243F975D00DC8BB1 /* PatuaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF45EEB243F975D00DC8BB1 /* PatuaOne-Regular.ttf */; };
 		7AF45EEE243F975D00DC8BB1 /* PatuaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF45EEB243F975D00DC8BB1 /* PatuaOne-Regular.ttf */; };
-		F109AA382440CEA900B9FC66 /* cons2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F109AA372440CEA900B9FC66 /* cons2.pdf */; };
 		F10C67DA2437AECC0079F99C /* QAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C67D92437AECC0079F99C /* QAViewController.swift */; };
 		F11653A0243BE6F20065A160 /* QARedirecionaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116539F243BE6F20065A160 /* QARedirecionaViewController.swift */; };
 		F12AAB192436A8FA00D3F326 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12AAB182436A8FA00D3F326 /* TableViewCell.swift */; };
@@ -85,8 +85,8 @@
 		53E961962433895700794AA6 /* PrototipoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototipoUITests.swift; sourceTree = "<group>"; };
 		53E961982433895700794AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53E961A42433911F00794AA6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7A3220F624421B08006CCA93 /* consfinal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = consfinal.pdf; sourceTree = "<group>"; };
 		7AF45EEB243F975D00DC8BB1 /* PatuaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PatuaOne-Regular.ttf"; sourceTree = "<group>"; };
-		F109AA372440CEA900B9FC66 /* cons2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = cons2.pdf; path = ../../../cons2.pdf; sourceTree = "<group>"; };
 		F10C67D92437AECC0079F99C /* QAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAViewController.swift; sourceTree = "<group>"; };
 		F116539F243BE6F20065A160 /* QARedirecionaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QARedirecionaViewController.swift; sourceTree = "<group>"; };
 		F12AAB182436A8FA00D3F326 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 			children = (
 				53CB45FC243D4E7300B02614 /* lista.pdf */,
 				53CB4604243E2B6B00B02614 /* cons.pdf */,
-				F109AA372440CEA900B9FC66 /* cons2.pdf */,
+				7A3220F624421B08006CCA93 /* consfinal.pdf */,
 				53CB4608243E456A00B02614 /* sinais.pdf */,
 				53E961742433895400794AA6 /* AppDelegate.swift */,
 				53E961762433895400794AA6 /* SceneDelegate.swift */,
@@ -315,11 +315,11 @@
 			files = (
 				7AF45EEC243F975D00DC8BB1 /* PatuaOne-Regular.ttf in Resources */,
 				53E961812433895700794AA6 /* LaunchScreen.storyboard in Resources */,
+				7A3220F724421B08006CCA93 /* consfinal.pdf in Resources */,
 				53CB4609243E456A00B02614 /* sinais.pdf in Resources */,
 				53E9617E2433895700794AA6 /* Assets.xcassets in Resources */,
 				53CB45FD243D4E7300B02614 /* lista.pdf in Resources */,
 				53E9617C2433895400794AA6 /* Main.storyboard in Resources */,
-				F109AA382440CEA900B9FC66 /* cons2.pdf in Resources */,
 				53CB4605243E2B6B00B02614 /* cons.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
