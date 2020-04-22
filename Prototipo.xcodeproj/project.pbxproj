@@ -12,9 +12,6 @@
 		53CB45DD2439952C00B02614 /* ClasseInformacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB45DC2439952C00B02614 /* ClasseInformacoes.swift */; };
 		53CB45E5243BDFA000B02614 /* ExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB45E4243BDFA000B02614 /* ExtraViewController.swift */; };
 		53CB45E9243BF06E00B02614 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB45E8243BF06E00B02614 /* DAO.swift */; };
-		53CB45FD243D4E7300B02614 /* lista.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB45FC243D4E7300B02614 /* lista.pdf */; };
-		53CB45FE243D4E7300B02614 /* lista.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB45FC243D4E7300B02614 /* lista.pdf */; };
-		53CB45FF243D4E7300B02614 /* lista.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB45FC243D4E7300B02614 /* lista.pdf */; };
 		53CB4605243E2B6B00B02614 /* cons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB4604243E2B6B00B02614 /* cons.pdf */; };
 		53CB4606243E2B6B00B02614 /* cons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB4604243E2B6B00B02614 /* cons.pdf */; };
 		53CB4607243E2B6B00B02614 /* cons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CB4604243E2B6B00B02614 /* cons.pdf */; };
@@ -67,7 +64,6 @@
 		53CB45DC2439952C00B02614 /* ClasseInformacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseInformacoes.swift; sourceTree = "<group>"; };
 		53CB45E4243BDFA000B02614 /* ExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraViewController.swift; sourceTree = "<group>"; };
 		53CB45E8243BF06E00B02614 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
-		53CB45FC243D4E7300B02614 /* lista.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = lista.pdf; sourceTree = "<group>"; };
 		53CB4604243E2B6B00B02614 /* cons.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cons.pdf; sourceTree = "<group>"; };
 		53CB4608243E456A00B02614 /* sinais.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sinais.pdf; sourceTree = "<group>"; };
 		53E961712433895400794AA6 /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,7 +141,6 @@
 		53E961732433895400794AA6 /* Prototipo */ = {
 			isa = PBXGroup;
 			children = (
-				53CB45FC243D4E7300B02614 /* lista.pdf */,
 				53CB4604243E2B6B00B02614 /* cons.pdf */,
 				7A3220F624421B08006CCA93 /* consfinal.pdf */,
 				53CB4608243E456A00B02614 /* sinais.pdf */,
@@ -318,7 +313,6 @@
 				7A3220F724421B08006CCA93 /* consfinal.pdf in Resources */,
 				53CB4609243E456A00B02614 /* sinais.pdf in Resources */,
 				53E9617E2433895700794AA6 /* Assets.xcassets in Resources */,
-				53CB45FD243D4E7300B02614 /* lista.pdf in Resources */,
 				53E9617C2433895400794AA6 /* Main.storyboard in Resources */,
 				53CB4605243E2B6B00B02614 /* cons.pdf in Resources */,
 			);
@@ -329,7 +323,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF45EED243F975D00DC8BB1 /* PatuaOne-Regular.ttf in Resources */,
-				53CB45FE243D4E7300B02614 /* lista.pdf in Resources */,
 				53CB460A243E456A00B02614 /* sinais.pdf in Resources */,
 				53CB4606243E2B6B00B02614 /* cons.pdf in Resources */,
 			);
@@ -340,7 +333,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF45EEE243F975D00DC8BB1 /* PatuaOne-Regular.ttf in Resources */,
-				53CB45FF243D4E7300B02614 /* lista.pdf in Resources */,
 				53CB460B243E456A00B02614 /* sinais.pdf in Resources */,
 				53CB4607243E2B6B00B02614 /* cons.pdf in Resources */,
 			);
